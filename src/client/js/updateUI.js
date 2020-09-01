@@ -4,7 +4,7 @@ import 'babel-polyfill';
 import { formHandler } from "./formHandler";
 
 const pixabayUrl = 'https://pixabay.com/api/?key=';
-const pixabayApiKey = 'ac2f85bdd3ab461dae9436e27e7b5564';
+const pixabayApiKey = '18136179-0e0fb7a4f2fef13e5cd6321d2';
 const printButton = document.querySelector("#print");
 const deleteButton = document.querySelector("#delete");
 const form =document.querySelector("#next");
