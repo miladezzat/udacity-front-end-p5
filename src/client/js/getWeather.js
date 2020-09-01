@@ -1,6 +1,6 @@
 //WeatherBit url
 const weather = 'https://api.weatherbit.io/v2.0/forecast/daily?'
-const weatherkey = '&key=8d2a57b192304c73bf359fa76f82bc40';
+const weatherkey = '&key=ac2f85bdd3ab461dae9436e27e7b5564';
 
 //GET weather data from weatherBit
 const getWeather = async (lat, lng, date) => {

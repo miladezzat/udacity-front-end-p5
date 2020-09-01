@@ -1,5 +1,3 @@
-// import { getWeather } from "./getWeather.js";
-// import { getImage } from "./pixabay.js";
 import 'babel-polyfill';
 import { formHandler } from "./formHandler";
 
