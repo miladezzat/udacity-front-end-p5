@@ -4,7 +4,7 @@ const weatherkey = '&key=ac2f85bdd3ab461dae9436e27e7b5564';
 
 //GET weather data from weatherBit
 const getWeather = async (lat, lng, date) => {
-    //set variable to hold fetch calls return
+    console.log(lat, lng);
     const res = await fetch(weather + "lat=" + lat + "&lon=" + lng + weatherkey);
     try {
         //retrieve data in json format

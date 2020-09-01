@@ -44,9 +44,11 @@ app.get('/forecast', (req, res) => {
 
 
 app.get('/geoname', (req, res) => {
-  const url = `${geonames}${req.query.city}&name=${req.query.city}&username=${process.env.username}`;
+  const url = `${geonames}${req.query.city}&name=${req.query.city}&username=${process.env.username='miladezzat'}`;
   axios.get(url).then(resp => {
     res.end(JSON.stringify(resp.data.geonames[0]));
+  }).catch(err=>{
+    console.log(err.message);
   })
 
 })
