@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
 async function formHandler() {
 
   const city = document.getElementById('destination').value;
-  await fetch(`http://localhost:8500/geoname?city=${city}`, {
+  await fetch(`http://localhost:3000/geoname?city=${city}`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json;charset=utf-8'
@@ -40,7 +40,7 @@ async function formHandler() {
     data.country = res.countryName;
     data.city = res.name;
     data.region = res.region;
-    await getWeather(`http://localhost:8500/forecast?lat=${res.lat}&long=${res.lng}`)
+    await getWeather(`http://localhost:3000/forecast?lat=${res.lat}&long=${res.lng}`)
   })
  .catch(err => {
     console.log(err)
