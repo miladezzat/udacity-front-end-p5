@@ -1,5 +1,3 @@
-// const pixakey = "key=17470172-9a2581dc72945643159f2604b";
-// const pixabay = "https://pixabay.com/api/?";
 
 //GET image data from Pixabay
 const getImage = async (pixabayUrl,pixabayApiKey,city) => {
