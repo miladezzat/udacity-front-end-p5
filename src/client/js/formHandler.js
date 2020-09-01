@@ -82,12 +82,3 @@ export const main = async () => {
   }
 }
 
-
-
-
-export {
-  // getCity,
-  // postData,
-  // getWeather,
-  // getImage,
-}
