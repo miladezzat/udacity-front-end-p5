@@ -1,7 +1,7 @@
 //Geonames url
 // let geoURL = 'http://api.geonames.org/postalCodeSearchJSON?placename=';
 const geonames = 'http://api.geonames.org/searchJSON?maxRows=10&operator=OR&q=';
-const userName = '&username=omar_k';
+const userName = '&username=miladezzat';
 
 
 //GET city data from Geonames
