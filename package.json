@@ -9,7 +9,7 @@
     "build-dev": "webpack-dev-server  --config webpack.dev.js --open",
     "app": "npm run build-prod && npm run start"
   },
-  "author": "",
+  "author": "Milad E. Fahmy",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
@@ -45,5 +45,21 @@
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-dev-server": "^3.11.0"
-  }
+  },
+  "description": "1. Starts a dev server for the webpage ```javascript     npm run build-dev  ``` 2. creates a production build in the dist folder  ```javascript         npm run build-prod  ``` 3. runs jest tests ```javascript     npm run test      ``` 4. starts the node server ```javascript     npm run start  ```",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miladezzat/udacity-front-end-p5.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "html",
+    "scss",
+    "workerservice"
+  ],
+  "bugs": {
+    "url": "https://github.com/miladezzat/udacity-front-end-p5/issues"
+  },
+  "homepage": "https://github.com/miladezzat/udacity-front-end-p5#readme"
 }
