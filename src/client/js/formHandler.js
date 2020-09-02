@@ -71,7 +71,7 @@ export const main = async () => {
   const start = document.getElementById('start').value;
   const end = document.getElementById('end').value;
   if(!start  && !end ){
-    alert ('Missing values')
+    alert ('Oooops Missing Values')
   } else {
     
     await formHandler();

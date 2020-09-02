@@ -16,3 +16,8 @@
 ```javascript
     npm run start 
 ```
+
+4. start app
+```javascript
+    npm run app
+```
